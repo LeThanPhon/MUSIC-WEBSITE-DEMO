@@ -21,64 +21,70 @@ const app = {
     config: JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
     songs: [
         {
-            name: "Âm thầm bên em",
-            singer: "Sơn Tùng M-TP",
-            path: "assets/music/AmThamBenEm-SonTungMTP.mp3",
-            image: "assets/img/Son_Tung_M-TP.jpeg"
-        },
-        {
-            name: "Anh sai rồi",
-            singer: "Sơn Tùng M-TP",
-            path: "assets/music/AnhSaiRoi-SonTungMTP.mp3",
-            image: "assets/img/Son_Tung_M-TP.jpeg"
-        },
-        {
-            name: "Ấn nút nhớ ... thả giấc mơ",
-            singer: "Sơn Tùng M-TP",
-            path: "assets/music/AnNutNhoThaGiacMo-SonTungMTP.mp3",
-            image: "assets/img/Son_Tung_M-TP.jpeg"
-        },
-        {
-            name: "Buông đôi tay nhau ra",
-            singer: "Sơn Tùng M-TP",
-            path: "assets/music/BuongDoiTayNhauRa-SonTungMTP.mp3",
-            image: "assets/img/Son_Tung_M-TP.jpeg"
-        },
-        {
-            name: "Chắc Ai Đó Sẽ Về",
-            singer: "Sơn Tùng M-TP",
-            path: "assets/music/ChacAiDoSeVe-SonTungMTP.mp3",
-            image: "assets/img/Son_Tung_M-TP.jpeg"
-        },
-        {
-            name: "Chạy ngay đi",
-            singer: "Sơn Tùng M-TP",
-            path: "assets/music/ChayNgayDi-SonTungMTP.mp3",
-            image: "assets/img/Son_Tung_M-TP.jpeg"
-        },
-        {
-            name: "Chúng ta của hiện tại",
-            singer: "Sơn Tùng M-TP",
-            path: "assets/music/ChungTaCuaHienTai-SonTungMTP.mp3",
-            image: "assets/img/Son_Tung_M-TP.jpeg"
-        },
-        {
-            name: "Chúng ta không thuộc về nhau",
-            singer: "Sơn Tùng M-TP",
-            path: "assets/music/ChungTaKhongThuocVeNhau-SonTungMTP.mp3",
-            image: "assets/img/Son_Tung_M-TP.jpeg"
-        },
-        {
             name: "Có chắc yêu là đây",
             singer: "Sơn Tùng M-TP",
             path: "assets/music/CoChacYeuLaDay-SonTungMTP.mp3",
             image: "assets/img/Son_Tung_M-TP.jpeg"
         },
         {
-            name: "Cơn mưa ngang qua",
-            singer: "Sơn Tùng M-TP",
-            path: "assets/music/ConMuaNgangQua-SonTungMTP.mp3",
-            image: "assets/img/Son_Tung_M-TP.jpeg"
+            name: "Mất kết nối",
+            singer: "Dương Domic",
+            path: "assets/music/MatKetNoi-DuongDomic.mp3",
+            image: "assets/img/Duong_Domic.jpeg"
+        },
+        {
+            name: "Cao ốc 20",
+            singer: "Bray",
+            path: "assets/music/CaoOc20-Bray.mp3",
+            image: "assets/img/Bray.jpeg"
+        },
+        {
+            name: "Thằng Hầu",
+            singer: "Nhật Phong",
+            path: "assets/music/ThangHau-NhatPhong.mp3",
+            image: "assets/img/Nhat_Phong.jpg"
+        },
+        {
+            name: "Khó Vẽ Nụ Cười",
+            singer: "Đạt G, Du Uyên",
+            path: "assets/music/KhoVeNuCuoi-DatGDuUyen.mp3",
+            image: "assets/img/Dat_G_Du_Uyen.jpg"
+        },
+        {
+            name: "Độ Ta Không Độ Nàng",
+            singer: "Khánh Phương",
+            path: "assets/music/DoTaKhongDoNang-KhanhPhuong.mp3",
+            image: "assets/img/Khanh_Phuong.jpg"
+        },
+        {
+            name: "Cô Thắm Không Về",
+            singer: "Phát Hồ, Jokes Bii, Sinike",
+            path: "assets/music/CoThamKhongVe-PhatHoJokesBiiThien.mp3",
+            image: "assets/img/Phat_Ho_JokeS_Bii_Sinike.jpg"
+        },
+        {
+            name: "Mạnh Bà",
+            singer: "Diệu Kiên",
+            path: "assets/music/ManhBa-DieuKien.mp3",
+            image: "assets/img/Dieu_Kien.jpg"
+        },
+        {
+            name: "Tự Hào Màu Áo Lính",
+            singer: "Thái Học",
+            path: "assets/music/TuHaoMauAoLinhTuRemix-ThaiHoc.mp3",
+            image: "assets/img/Thai_Hoc.jpg"
+        },
+        {
+            name: "Hoa Cỏ Lau",
+            singer: "Phong Max",
+            path: "assets/music/HoaCoLauOfficialRemix-PhongMax.mp3",
+            image: "assets/img/Phong_Max.jpg"
+        },
+        {
+            name: "Thế Giới Ảo Tình Yêu Thật",
+            singer: "Minh Vương M4U, Trịnh Đình Quang",
+            path: "assets/music/TheGioiAoTinhYeuThat-MinhVuongM4UTrinhDinhQuang.mp3",
+            image: "assets/img/Trinh_Dinh_Quang.jpg"
         },
     ],
     setConfig: function(key, value) {
