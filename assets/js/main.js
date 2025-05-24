@@ -86,6 +86,7 @@ const app = {
             path: "assets/music/TheGioiAoTinhYeuThat-MinhVuongM4UTrinhDinhQuang.mp3",
             image: "assets/img/Trinh_Dinh_Quang.jpg"
         },
+        
     ],
     setConfig: function(key, value) {
         this.config[key] = value;
